@@ -1,0 +1,20 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.home-section {
+  flex: 1 1 40%; /* Flexbox shorthand: grow, shrink, basis */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}

@@ -1,0 +1,50 @@
+/* Menu.css */
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.category-item {
+  flex: 1 0 calc(25% - 1rem); /* Adjust width for 4 items in a row with padding */
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid transparent; /* Remove border */
+  text-align: center;
+  cursor: pointer;
+}
+
+.category-item:hover {
+  background-color: #e0e0e0;
+}
+
+.meal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.meal-item {
+  display: flex; /* Ensure meal items are flex containers */
+  flex-direction: column; /* Align buttons vertically */
+  align-items: center; /* Center align items horizontally */
+  text-align: center;
+  padding: 1rem;
+}
+
+.meal-item img {
+  max-width: 100%; /* Adjust image size */
+  height: auto;
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.meal-item h4 {
+  margin-bottom: 10px; /* Space between title and buttons */
+}
+
+.meal-item button {
+  margin-bottom: 5px; /* Space between buttons */
+}
